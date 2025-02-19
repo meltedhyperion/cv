@@ -1,4 +1,3 @@
-import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { RESUME_DATA } from "@/data/resume-data";
 import { WorkExperience } from "./components/WorkExperience";
@@ -33,27 +32,6 @@ export const metadata: Metadata = {
   },
 };
 
-/**
- * Transform social links for command menu
- */
-function getCommandMenuLinks() {
-  const links = [];
-
-  if (RESUME_DATA.personalWebsiteUrl) {
-    links.push({
-      url: RESUME_DATA.personalWebsiteUrl,
-      title: "Personal Website",
-    });
-  }
-
-  return [
-    ...links,
-    ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
-      url: socialMediaLink.url,
-      title: socialMediaLink.name,
-    })),
-  ];
-}
 
 export default function ResumePage() {
   return (
@@ -83,10 +61,6 @@ export default function ResumePage() {
           <Projects projects={RESUME_DATA.projects} />
         </div>
       </section>
-
-      <nav className="print:hidden" aria-label="Quick navigation">
-        <CommandMenu links={getCommandMenuLinks()} />
-      </nav>
     </main>
   );
 }

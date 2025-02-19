@@ -9,232 +9,223 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Aryan Singh",
+  initials: "AS",
+  location: "Bokaro Steel City, India, IST",
+  locationLink: "https://www.google.com/maps/place/Bokaro",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "If not learning CV, AI and Embed, then probably backend. ",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      An engineer with a strong interest in technology, 
+      math, and applied sciences. One who genuinely enjoy tackling challenging 
+      problems and finding creative solutions, and love getting into research 
+      to see what new possibilities are out there. He is always eager to learn 
+      and apply his skills to projects that make a real impact.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/90302042?v=4",
+  personalWebsiteUrl: "https://aryansingh.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "hello@aryansingh.dev",
+    tel: "+918294107355",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/meltedhyperion",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/meltedhyperion/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/meltedhyperion",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "SRM Institute of Science and Technology",
+      degree: "Bachelor's Degree in Computer Science and Engineering",
+      start: "2021",
+      end: "2025",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
+      company: "Indian Space Research Organisation",
+      link: "https://www.isro.gov.in/",
+      badges: ["CV", "DL","FPGA","SLAM", "ROS"],
+      title: "Research Intern",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+      start: "Aug, 2024",
+      end: "Dec, 2024",
+      description: (
+        <>
+        Worked on 3 major projects in the field of robotics, computer vision and AI/ML.
+          <ul className="list-inside list-disc">
+            <li>
+            <b>Satellite Pose Estimation (AI & Deep Learning):</b> Developed a pipeline using HRNet & AHRNet to estimate GSAT-12R`&apos;`s orientation. Optimized deployment on the Xilinx Versal VCK190 with custom quantization scripts.
+            </li>
+            <li>
+            <b>Autonomous Rover Navigation (SLAM & Path Planning):</b> Implemented RTABMap-based SLAM on Firebird VI with Luxonis OAK-D AI camera. Designed a GUI and conducted mapping experiments.
+            </li>
+            <li>
+            <b>Lidar-Based Satellite Pose Estimation:</b> Analyzed ICP/GICP for satellite pose estimation using Blender datasets. Captured point cloud data with Aeva Lidar and Aevis software.
+            </li>
+          </ul>
+        </>
+      ),
     },
+    {
+      company: "Mable.ai",
+      link: "https://mable.ai",
+      badges: ["Remote", "GoLang", "TS","Python", "PostgreSQL", "AWS", "Redis"],
+      title: "Backend Developer (Part Time)",
+      logo: ConsultlyLogo,
+      start: "Oct, 2022",
+      end: "Dec, 2023",
+      description: (
+        <>
+          One of the founding devs on a B2B SaaS platform for optimizing marketing data accuracy and ad performance.
+          <ul className="list-inside list-disc">
+            <li>
+            Led multiple backend projects aimed at 30% efficiency imporvements.
+            </li>
+            <li>
+            Migrated microservices from Typescript to Golang.
+            </li>
+            <li>
+            Built cron jobs for routine data caching, archiving and, deduplication.
+            </li>
+            <li>
+            Developed a CI/CD pipeline for automated DB schema migrations.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+     company: "IIT, Roorkee",
+      link: "https://www.iitr.ac.in/",
+      badges: ["Computer Vision", "Embedded Systems", "C", "RPi", "Python"],
+      title: "Research Intern",
+      logo: ConsultlyLogo,
+      start: "Jun, 2023",
+      end: "Jul, 2023",
+      description: (
+        <>
+          SPR Image Sensor Construction & Real-Time Analysis
+          <ul className="list-inside list-disc">
+            <li>
+            Led development of IoT-based SPR image sensor for real-time, precise parameter detection.
+            </li>
+            <li>
+            Automated manual workflows, achieving enhanced performance.
+            </li>
+            <li>
+            Designed a Python-based GUI for sensor calibration and data visualization.
+            </li>
+          </ul>
+        </>
+      ) 
+    }
+  ],
+  research : [
+    {
+      company: "Indian Space Research Organisation",
+      link: "https://www.isro.gov.in/",
+      badges: ["Computer Vision", "Deep Learning","Embedded Systems","FPGA","SLAM", "ROS"],
+      title: "Research Intern",
+      logo: NSNLogo,
+      start: "Aug, 2024",
+      end: "Dec, 2024",
+      description: (
+        <>
+        Worked on 3 major projects in the field of robotics, computer vision and AI/ML.
+          <ul className="list-inside list-disc">
+            <li>
+              1. Satellite Pose Estimation (AI & Deep Learning): Developed a pipeline using HRNet & AHRNet to estimate GSAT-12R`&apos;`s orientation. Optimized deployment on the Xilinx Versal VCK190 with custom quantization scripts.
+            </li>
+            <li>
+            Autonomous Rover Navigation (SLAM & Path Planning): Implemented RTABMap-based SLAM on Firebird VI with Luxonis OAK-D AI camera. Designed a GUI and conducted mapping experiments.
+            </li>
+            <li>
+            Lidar-Based Satellite Pose Estimation: Analyzed ICP/GICP for satellite pose estimation using Blender datasets. Captured point cloud data with Aeva Lidar and Aevis software.
+            </li>
+          </ul>
+        </>
+      ),
+    }
   ],
   skills: [
-    "React/Next.js/Remix",
+   "GoLang",
     "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
+    "TS/JS",
     "Node.js",
+    "Python",
     "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "AWS",
+    "Docker",
+    "Computer Vision",
+    "Robotics",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Smart Data Injector",
+      techStack: ["GoLang", "Python", "MongoDB", "AWS", "kestra.io"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "A data injection pipeline that automates the task of data association between soource and target schema.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "sdi.aryansingh.dev",
+        href: "https://github.com/meltedhyperion/smart-data-injector",
       },
     },
     {
-      title: "Consultly",
+      title: "Satellite Pose Estimation",
       techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "Pytorch",
+        "Python",
+        "AHRNet",
+        "PnP RanSac",
+        "CUDA"
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "An Effective Landmark Regression Using Attention Based-HRNet For Satellite Pose Estimation",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "isro.org.in",
+        href: "https://drive.google.com/file/d/1Ja5hg57V1hBD2ZCm526zYRDHCtdvwApK/view?usp=sharing",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "Fury",
+      techStack: ["GoLang", "Remix", "MongoDB", "AWS"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "A recruitment portal for campus clubs with secure and seamless account creation using college email integration",
       logo: MonitoLogo,
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "recruitment.srmkzilla.net",
+        href: "github.com/meltedhyperion/fury",
+      },
+    },
+    {
+      title: "Open Sourcerer",
+      techStack: ["Express", "React", "MongoDB"],
+      description:
+        "A ra browser extension to simplify exploration of open-source projects on GitHub based on user skills and project community.",
+      logo: MonitoLogo,
+      link: {
+        label: "recruitment.srmkzilla.net",
+        href: "github.com/meltedhyperion/fury",
       },
     },
   ],
