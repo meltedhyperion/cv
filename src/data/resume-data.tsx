@@ -69,7 +69,7 @@ export const RESUME_DATA = {
         Worked on 3 major projects in the field of robotics, computer vision and AI/ML.
           <ul className="list-inside list-disc">
             <li>
-            <b>Satellite Pose Estimation (AI & Deep Learning):</b> Developed a pipeline using HRNet & AHRNet to estimate GSAT-12R`&apos;`s orientation. Optimized deployment on the Xilinx Versal VCK190 with custom quantization scripts.
+            <b>Satellite Pose Estimation (AI & Deep Learning):</b> Developed a pipeline using HRNet & AHRNet to estimate GSAT-12R&apos;s orientation. Optimized deployment on the Xilinx Versal VCK190 with custom quantization scripts.
             </li>
             <li>
             <b>Autonomous Rover Navigation (SLAM & Path Planning):</b> Implemented RTABMap-based SLAM on Firebird VI with Luxonis OAK-D AI camera. Designed a GUI and conducted mapping experiments.
@@ -149,7 +149,7 @@ export const RESUME_DATA = {
         Worked on 3 major projects in the field of robotics, computer vision and AI/ML.
           <ul className="list-inside list-disc">
             <li>
-              1. Satellite Pose Estimation (AI & Deep Learning): Developed a pipeline using HRNet & AHRNet to estimate GSAT-12R`&apos;`s orientation. Optimized deployment on the Xilinx Versal VCK190 with custom quantization scripts.
+              1. Satellite Pose Estimation (AI & Deep Learning): Developed a pipeline using HRNet & AHRNet to estimate GSAT-12R&apos;s orientation. Optimized deployment on the Xilinx Versal VCK190 with custom quantization scripts.
             </li>
             <li>
             Autonomous Rover Navigation (SLAM & Path Planning): Implemented RTABMap-based SLAM on Firebird VI with Luxonis OAK-D AI camera. Designed a GUI and conducted mapping experiments.
