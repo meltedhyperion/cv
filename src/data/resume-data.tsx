@@ -53,6 +53,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Computer Science and Engineering",
       start: "2021",
       end: "2025",
+      location: "Chennai, India",
     },
   ],
   work: [
@@ -133,29 +134,24 @@ export const RESUME_DATA = {
           </ul>
         </>
       ) 
-    }
-  ],
-  research : [
+    },
     {
-      company: "Indian Space Research Organisation",
-      link: "https://www.isro.gov.in/",
-      badges: ["Computer Vision", "Deep Learning","Embedded Systems","FPGA","SLAM", "ROS"],
-      title: "Research Intern",
-      logo: NSNLogo,
-      start: "Aug, 2024",
-      end: "Dec, 2024",
+      company: "SRMKZILLA",
+      link: "https://srmkzilla.net/",
+      badges: ["GoLang", "Node.js", "MongoDB", "AWS"],
+      title: "Technical Lead",
+      logo: MonitoLogo,
+      start: "Oct, 2021",
+      end: "May, 2024",
       description: (
         <>
-        Worked on 3 major projects in the field of robotics, computer vision and AI/ML.
+          Lead of the Technical Domain at Mozilla's official campus club at SRM, managing a team of 20+ members.
           <ul className="list-inside list-disc">
             <li>
-              1. Satellite Pose Estimation (AI & Deep Learning): Developed a pipeline using HRNet & AHRNet to estimate GSAT-12R&apos;s orientation. Optimized deployment on the Xilinx Versal VCK190 with custom quantization scripts.
+            Developed and managed scalable services using Golang, MongoDB, Node.js, and Spring Boot.
             </li>
             <li>
-            Autonomous Rover Navigation (SLAM & Path Planning): Implemented RTABMap-based SLAM on Firebird VI with Luxonis OAK-D AI camera. Designed a GUI and conducted mapping experiments.
-            </li>
-            <li>
-            Lidar-Based Satellite Pose Estimation: Analyzed ICP/GICP for satellite pose estimation using Blender datasets. Captured point cloud data with Aeva Lidar and Aevis software.
+            Led open-source projects that are widely used both on and off campus.
             </li>
           </ul>
         </>
@@ -164,17 +160,15 @@ export const RESUME_DATA = {
   ],
   skills: [
    "GoLang",
-    "TypeScript",
-    "TS/JS",
     "Node.js",
+    "Java",
     "Python",
-    "GraphQL",
     "PostgreSQL",
     "MongoDB",
     "Redis",
     "AWS",
     "Docker",
-    "Computer Vision",
+    "CV",
     "Robotics",
   ],
   projects: [
@@ -221,7 +215,7 @@ export const RESUME_DATA = {
       title: "Open Sourcerer",
       techStack: ["Express", "React", "MongoDB"],
       description:
-        "A ra browser extension to simplify exploration of open-source projects on GitHub based on user skills and project community.",
+        "A browser extension to simplify exploration of open-source projects on GitHub based on user skills and project community.",
       logo: MonitoLogo,
       link: {
         label: "recruitment.srmkzilla.net",
