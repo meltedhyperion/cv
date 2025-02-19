@@ -145,7 +145,7 @@ export const RESUME_DATA = {
       end: "May, 2024",
       description: (
         <>
-          Lead of the Technical Domain at Mozilla's official campus club at SRM, managing a team of 20+ members.
+          Lead of the Technical Domain at Mozilla&apos;s official campus club at SRM, managing a team of 20+ members.
           <ul className="list-inside list-disc">
             <li>
             Developed and managed scalable services using Golang, MongoDB, Node.js, and Spring Boot.
