@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "./image.png",
+        url: "https://aryans-documents.s3.ap-south-1.amazonaws.com/image.png",
         width: 1200,
         height: 630,
         alt: `${RESUME_DATA.name}'s profile picture`,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${RESUME_DATA.name} - Resume`,
     description: RESUME_DATA.about,
-    images: ["./image.png"],
+    images: ["https://aryans-documents.s3.ap-south-1.amazonaws.com/image.png"],
   },
 };
 
