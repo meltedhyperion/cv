@@ -24,12 +24,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: `${RESUME_DATA.name} - Resume`,
-    description: RESUME_DATA.about,
-    images: ["https://aryans-documents.s3.ap-south-1.amazonaws.com/image.png"],
-  },
 };
 
 
